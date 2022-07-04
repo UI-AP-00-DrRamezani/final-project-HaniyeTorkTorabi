@@ -60,7 +60,7 @@
             <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/TA3.png" />
          </image>
       </ImageView>
-      <Button fx:id="btn_Start" layoutX="355.0" layoutY="19.0" mnemonicParsing="false" onMouseClicked="#click_Start" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/GamePageStyle.css" text="START">
+      <Button fx:id="btn_Start" layoutX="355.0" layoutY="19.0" mnemonicParsing="false" onMouseClicked="#click_Start" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="@../../../../java/com/example/game/Styles/GamePageStyle.css" text="START">
          <effect>
             <DropShadow />
          </effect>
@@ -68,7 +68,7 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="btn_Pause" layoutX="497.0" layoutY="19.0" mnemonicParsing="false" onAction="#action_Pause" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/GamePageStyle.css" text="PAUSE">
+      <Button fx:id="btn_Pause" layoutX="497.0" layoutY="19.0" mnemonicParsing="false" onAction="#action_Pause" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="@../../../../java/com/example/game/Styles/GamePageStyle.css" text="PAUSE">
          <effect>
             <DropShadow />
          </effect>
@@ -102,7 +102,7 @@
             </DropShadow>
          </effect>
       </Label>
-      <Button fx:id="btn_Exit" layoutX="698.0" layoutY="19.0" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#click_Exit" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/GamePageStyle.css" text="EXIT">
+      <Button fx:id="btn_Exit" layoutX="698.0" layoutY="19.0" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#click_Exit" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="@../../../../java/com/example/game/Styles/GamePageStyle.css" text="EXIT">
          <effect>
             <DropShadow />
          </effect>
@@ -110,7 +110,7 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="btn_Save" layoutX="35.0" layoutY="19.0" mnemonicParsing="false" onMouseClicked="#click_Save" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/GamePageStyle.css" text="SAVE">
+      <Button fx:id="btn_Save" layoutX="35.0" layoutY="19.0" mnemonicParsing="false" onMouseClicked="#click_Save" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="@../../../../java/com/example/game/Styles/GamePageStyle.css" text="SAVE">
          <effect>
             <DropShadow />
          </effect>
@@ -174,7 +174,7 @@
       <Label fx:id="lbl_NumStuCoffee" alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="193.0" prefHeight="18.0" prefWidth="27.0" text="5" />
       <Label fx:id="lbl_NumStuMusic" alignment="CENTER" contentDisplay="CENTER" layoutX="117.0" layoutY="193.0" prefHeight="18.0" prefWidth="27.0" text="5" />
       <Label fx:id="lbl_NumStuPhone" alignment="CENTER" contentDisplay="CENTER" layoutX="65.0" layoutY="193.0" prefHeight="18.0" prefWidth="27.0" text="5" />
-      <Button fx:id="btn_resume" layoutX="219.0" layoutY="19.0" mnemonicParsing="false" onMouseClicked="#click_Resume" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/GamePageStyle.css" text="RESUME">
+      <Button fx:id="btn_resume" layoutX="219.0" layoutY="19.0" mnemonicParsing="false" onMouseClicked="#click_Resume" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="@../../../../java/com/example/game/Styles/GamePageStyle.css" text="RESUME">
          <effect>
             <DropShadow />
          </effect>

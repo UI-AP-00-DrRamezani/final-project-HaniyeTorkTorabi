@@ -452,7 +452,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <Button fx:id="btn_Back" alignment="CENTER" layoutX="355.0" layoutY="546.0" mnemonicParsing="false" onMouseClicked="#click_Back" opacity="0.85" prefHeight="40.0" prefWidth="93.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/SettingStyle.css" text="BACK" textFill="#eaded3">
+      <Button fx:id="btn_Back" alignment="CENTER" layoutX="355.0" layoutY="546.0" mnemonicParsing="false" onMouseClicked="#click_Back" opacity="0.85" prefHeight="40.0" prefWidth="93.0" style="-fx-background-radius: 20;" stylesheets="@../../../../java/com/example/game/Styles/GamePageStyle.css" text="BACK" textFill="#eaded3">
          <font>
             <Font name="Courier New Bold" size="18.0" />
          </font>

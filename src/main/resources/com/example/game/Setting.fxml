@@ -5,11 +5,11 @@
 <?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.Slider?>
 <?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
-
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.SettingController">
    <children>
@@ -18,10 +18,13 @@
             <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/finalSetting.png" />
          </image>
       </ImageView>
-      <Button fx:id="btn_Save" alignment="CENTER" layoutX="31.0" layoutY="521.0" mnemonicParsing="false" onMouseClicked="#click_Save" opacity="0.85" prefHeight="42.0" prefWidth="110.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/SettingStyle.css" text="SAVE" textFill="#eaded3">
+      <Button fx:id="btn_Save" alignment="CENTER" layoutX="31.0" layoutY="521.0" mnemonicParsing="false" onMouseClicked="#click_Save" opacity="0.85" prefHeight="42.0" prefWidth="110.0" style="-fx-background-radius: 20;" stylesheets="@../../../../java/com/example/game/Styles/SettingStyle.css" text="SAVE" textFill="#eaded3">
          <font>
             <Font name="Courier New Bold" size="20.0" />
          </font>
+         <effect>
+            <DropShadow />
+         </effect>
       </Button>
       <Slider fx:id="voloum_Slider" layoutX="496.0" layoutY="147.0" majorTickUnit="10.0" minorTickCount="1" prefHeight="26.0" prefWidth="230.0" showTickLabels="true" showTickMarks="true" value="50.0" />
       <RadioButton fx:id="Radio_EASY" layoutX="240.0" layoutY="324.0" mnemonicParsing="false" onAction="#action_Levels" text="EASY" textFill="#8fffce">
@@ -42,10 +45,13 @@
       <Slider fx:id="mouse_slider1" layoutX="496.0" layoutY="237.0" majorTickUnit="10.0" minorTickCount="1" prefHeight="26.0" prefWidth="230.0" showTickLabels="true" showTickMarks="true" value="50.0" />
       <Label fx:id="lblVolume" layoutX="745.0" layoutY="148.0" text="50%" textFill="#f5ff86" />
       <Label fx:id="lblMouseSpeed" layoutX="745.0" layoutY="238.0" text="50%" textFill="#f5ff86" />
-      <Button fx:id="btn_Back" alignment="CENTER" layoutX="667.0" layoutY="521.0" mnemonicParsing="false" onMouseClicked="#click_Back" opacity="0.85" prefHeight="42.0" prefWidth="110.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/SettingStyle.css" text="BACK" textFill="#eaded3">
+      <Button fx:id="btn_Back" alignment="CENTER" layoutX="667.0" layoutY="521.0" mnemonicParsing="false" onMouseClicked="#click_Back" opacity="0.85" prefHeight="42.0" prefWidth="110.0" style="-fx-background-radius: 20;" stylesheets="@../../../../java/com/example/game/Styles/SettingStyle.css" text="BACK" textFill="#eaded3">
          <font>
             <Font name="Courier New Bold" size="20.0" />
          </font>
+         <effect>
+            <DropShadow />
+         </effect>
       </Button>
       <Label fx:id="lbl_volume" layoutX="47.0" layoutY="143.0" prefHeight="26.0" prefWidth="155.0" text="VOLUME" textFill="#ffee6d">
          <font>
