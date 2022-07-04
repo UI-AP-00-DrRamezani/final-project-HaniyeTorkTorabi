@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="GamePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.GamePageController">
+   <children>
+      <ImageView fx:id="img_background" fitHeight="606.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/sand.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="img_StuBag" fitHeight="90.0" fitWidth="45.0" layoutX="15.0" layoutY="103.0" onMouseClicked="#click_StuBag" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/Stu3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img_StuPhone" fitHeight="90.0" fitWidth="45.0" layoutX="55.0" layoutY="103.0" onMouseClicked="#click_StuPhone" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/stu1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img_StuMusic" fitHeight="90.0" fitWidth="45.0" layoutX="111.0" layoutY="103.0" onMouseClicked="#click_StuMusic" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/Stu2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img_StuCoffee" fitHeight="90.0" fitWidth="45.0" layoutX="156.0" layoutY="103.0" onMouseClicked="#click_StuCooffee" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/Stu4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img_TAMusic" fitHeight="90.0" fitWidth="45.0" layoutX="615.0" layoutY="103.0" onMouseClicked="#click_TAMusic" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/TA1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img_TAHappy" fitHeight="90.0" fitWidth="45.0" layoutX="749.0" layoutY="103.0" onMouseClicked="#click_TAHappy" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/TA2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img_TABag" fitHeight="90.0" fitWidth="45.0" layoutX="698.0" layoutY="103.0" onMouseClicked="#click_TABag" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/TA4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img_TAPhone" fitHeight="90.0" fitWidth="45.0" layoutX="651.0" layoutY="103.0" onMouseClicked="#click_TAPhone" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/TA3.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_Start" layoutX="355.0" layoutY="19.0" mnemonicParsing="false" onMouseClicked="#click_Start" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/GamePageStyle.css" text="START">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_Pause" layoutX="497.0" layoutY="19.0" mnemonicParsing="false" onAction="#action_Pause" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/GamePageStyle.css" text="PAUSE">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Separator layoutX="28.0" layoutY="90.0" prefHeight="3.0" prefWidth="166.0" style="-fx-background-color: #621ddb;" />
+      <Separator layoutX="602.0" layoutY="89.0" prefHeight="3.0" prefWidth="166.0" style="-fx-background-color: #621ddb;" />
+      <Label alignment="CENTER" layoutX="28.0" layoutY="68.0" prefHeight="18.0" prefWidth="166.0" text="STUDENT TEAM">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.5921568870544434" green="0.0117647061124444" blue="0.9058823585510254" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Label alignment="CENTER" layoutX="602.0" layoutY="68.0" prefHeight="18.0" prefWidth="166.0" text="TA TEAM">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.5921568870544434" green="0.0117647061124444" blue="0.9058823585510254" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Button fx:id="btn_Exit" layoutX="698.0" layoutY="19.0" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#click_Exit" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/GamePageStyle.css" text="EXIT">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_Save" layoutX="35.0" layoutY="19.0" mnemonicParsing="false" onMouseClicked="#click_Save" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/GamePageStyle.css" text="SAVE">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Separator layoutX="211.0" layoutY="58.0" orientation="VERTICAL" prefHeight="161.0" prefWidth="6.0" style="-fx-background-color: #000000;" />
+      <Separator layoutX="579.0" layoutY="58.0" orientation="VERTICAL" prefHeight="161.0" prefWidth="6.0" style="-fx-background-color: #000000;" />
+      <ImageView fx:id="img_ProffRoom" fitHeight="378.0" fitWidth="147.0" layoutX="19.0" layoutY="216.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/High%20School-amico.png" />
+         </image>
+      </ImageView>
+      <Separator layoutY="216.0" prefHeight="3.0" prefWidth="800.0" style="-fx-background-color: #000000;" />
+      <Separator layoutY="56.0" prefHeight="3.0" prefWidth="800.0" style="-fx-background-color: #000000; -fx-border-color: #000000;" />
+      <Label alignment="CENTER" layoutX="331.0" layoutY="63.0" text="SCORE BOARD">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="1.0" blue="0.6666666865348816" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Separator layoutX="260.0" layoutY="119.0" prefHeight="3.0" prefWidth="279.0" style="-fx-background-color: #d991d2;" />
+      <Separator layoutX="396.0" layoutY="93.0" orientation="VERTICAL" prefHeight="114.0" prefWidth="6.0" style="-fx-background-color: #ab91d9;" />
+      <Separator layoutX="259.0" layoutY="158.0" prefHeight="3.0" prefWidth="279.0" style="-fx-background-color: #d991d2;" />
+      <Label alignment="CENTER" layoutX="299.0" layoutY="95.0" text="TEAM">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="449.0" layoutY="95.0" text="SCORE">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="311.0" layoutY="128.0" prefHeight="30.0" prefWidth="27.0" text="TA">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="290.0" layoutY="161.0" prefHeight="30.0" prefWidth="82.0" text="STUDENT">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="172.0" layoutY="239.0" orientation="VERTICAL" prefHeight="356.0" prefWidth="6.0" />
+      <Separator layoutX="225.0" layoutY="239.0" orientation="VERTICAL" prefHeight="356.0" prefWidth="6.0" />
+      <Separator layoutX="726.0" layoutY="239.0" orientation="VERTICAL" prefHeight="356.0" prefWidth="6.0" />
+      <Separator layoutX="783.0" layoutY="239.0" orientation="VERTICAL" prefHeight="356.0" prefWidth="6.0" />
+      <Separator layoutX="142.0" layoutY="238.0" prefHeight="3.0" prefWidth="654.0" />
+      <Separator layoutX="171.0" layoutY="347.0" prefHeight="3.0" prefWidth="613.0" />
+      <Separator layoutX="170.0" layoutY="463.0" prefHeight="3.0" prefWidth="614.0" />
+      <Separator layoutX="142.0" layoutY="593.0" prefHeight="3.0" prefWidth="654.0" />
+      <Label fx:id="lbl_NumStuBag" alignment="CENTER" contentDisplay="CENTER" layoutX="18.0" layoutY="193.0" prefHeight="18.0" prefWidth="27.0" text="5" />
+      <Label fx:id="lbl_NumStuCoffee" alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="193.0" prefHeight="18.0" prefWidth="27.0" text="5" />
+      <Label fx:id="lbl_NumStuMusic" alignment="CENTER" contentDisplay="CENTER" layoutX="117.0" layoutY="193.0" prefHeight="18.0" prefWidth="27.0" text="5" />
+      <Label fx:id="lbl_NumStuPhone" alignment="CENTER" contentDisplay="CENTER" layoutX="65.0" layoutY="193.0" prefHeight="18.0" prefWidth="27.0" text="5" />
+      <Button fx:id="btn_resume" layoutX="219.0" layoutY="19.0" mnemonicParsing="false" onMouseClicked="#click_Resume" prefHeight="26.0" prefWidth="82.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/GamePageStyle.css" text="RESUME">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

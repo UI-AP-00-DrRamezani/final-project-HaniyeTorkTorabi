@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="paneMainPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.MainPageController">
+   <children>
+      <ImageView fx:id="pane_mainPage" fitHeight="600.0" fitWidth="800.0" layoutX="170.0" layoutY="61.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="D:\Unversity\Term 2\project pishrafte\Game\src\main\java\com\example\game\icones\firstPage.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_start" alignment="CENTER" layoutX="319.0" layoutY="407.0" mnemonicParsing="false" onMouseClicked="#click_start" opacity="0.85" prefHeight="50.0" prefWidth="160.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/MainPageStyle.css" text="START" textFill="#ff9e3c">
+         <font>
+            <Font name="Courier New Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btn_load" alignment="CENTER" layoutX="56.0" layoutY="467.0" mnemonicParsing="false" onMouseClicked="#click_load" opacity="0.85" prefHeight="50.0" prefWidth="160.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/MainPageStyle.css" text="LOAD" textFill="#ff9e3c" AnchorPane.bottomAnchor="83.0" AnchorPane.leftAnchor="56.0" AnchorPane.topAnchor="467.0">
+         <font>
+            <Font name="Courier New Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btn_setting" alignment="CENTER" layoutX="580.0" layoutY="467.0" mnemonicParsing="false" onMouseClicked="#click_setting" opacity="0.85" prefHeight="50.0" prefWidth="160.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/MainPageStyle.css" text="SETTING" textFill="#ff9e3c" AnchorPane.bottomAnchor="83.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="467.0">
+         <font>
+            <Font name="Courier New Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label fx:id="lbl_TA" alignment="CENTER" contentDisplay="CENTER" layoutX="479.0" layoutY="18.0" prefHeight="146.0" prefWidth="154.0" text="TA" textFill="#ebd109">
+         <font>
+            <Font name="Kristen ITC" size="50.0" />
+         </font>
+         <effect>
+            <Bloom threshold="1.0">
+               <input>
+                  <Bloom threshold="0.01">
+                     <input>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.7052631378173828" green="0.036569200456142426" blue="0.036569200456142426" />
+                           </color>
+                        </DropShadow>
+                     </input>
+                  </Bloom>
+               </input>
+            </Bloom>
+         </effect>
+      </Label>
+      <Label fx:id="lbl_vs" alignment="CENTER" contentDisplay="CENTER" layoutX="342.0" layoutY="22.0" prefHeight="138.0" prefWidth="116.0" text="VS" textFill="#ebd109">
+         <font>
+            <Font name="Kristen ITC" size="40.0" />
+         </font>
+         <effect>
+            <Bloom threshold="1.0">
+               <input>
+                  <Bloom threshold="0.01">
+                     <input>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.7052631378173828" green="0.036569200456142426" blue="0.036569200456142426" />
+                           </color>
+                        </DropShadow>
+                     </input>
+                  </Bloom>
+               </input>
+            </Bloom>
+         </effect>
+      </Label>
+      <Label fx:id="lbl_student" alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="22.0" prefHeight="138.0" prefWidth="277.0" text="STUDENT" textFill="#ebd109">
+         <font>
+            <Font name="Kristen ITC" size="50.0" />
+         </font>
+         <effect>
+            <Bloom threshold="1.0">
+               <input>
+                  <Bloom threshold="0.01">
+                     <input>
+                        <DropShadow>
+                           <color>
+                              <Color red="0.7052631378173828" green="0.036569200456142426" blue="0.036569200456142426" />
+                           </color>
+                        </DropShadow>
+                     </input>
+                  </Bloom>
+               </input>
+            </Bloom>
+         </effect>
+      </Label>
+      <ImageView fx:id="imgChar" fitHeight="122.0" fitWidth="142.0" layoutX="626.0" layoutY="22.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/icones/Jiu%20Jitsu-bro.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_PlayerInfo" alignment="CENTER" layoutX="275.0" layoutY="517.0" mnemonicParsing="false" onMouseClicked="#click_playerInfo" opacity="0.85" prefHeight="50.0" prefWidth="249.0" style="-fx-background-radius: 20;" stylesheets="file:/D:/Unversity/Term%202/project%20pishrafte/Game/src/main/java/com/example/game/style/MainPageStyle.css" text="PLAYER INFORMATION" textFill="#ff9e3c">
+         <font>
+            <Font name="Courier New Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
