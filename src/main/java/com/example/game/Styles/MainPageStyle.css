@@ -1,0 +1,13 @@
+.button {
+    -fx-background-color:  #2e3705;
+    cursor: pointer; // seems like Cursor.HAND
+}
+
+.button:hover {
+    -fx-background-color: #526c5a;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-background-color: #48915e;
+}
